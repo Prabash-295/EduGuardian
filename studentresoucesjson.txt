@@ -1,0 +1,14 @@
+{
+  "resources": [
+    {
+      "title": "Math Revision Notes",
+      "description": "All chapters covered for midterm.",
+      "link": "https://example.com/math-notes"
+    },
+    {
+      "title": "History Videos",
+      "description": "Playlist for ancient history.",
+      "link": "https://example.com/history-videos"
+    }
+  ]
+}

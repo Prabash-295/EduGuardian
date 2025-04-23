@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EduGuardian Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>Login as</h2>
+    <button onclick="loadDashboard('student')">Student</button>
+    <button onclick="loadDashboard('teacher')">Teacher</button>
+    <button onclick="loadDashboard('admin')">Admin</button>
+  </div>
+
+  <div id="dashboard" class="hidden">
+    <h2 id="role-heading"></h2>
+    <div id="content"></div>
+    <button onclick="logout()">Logout</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

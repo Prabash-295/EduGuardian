@@ -1,0 +1,14 @@
+{
+  "resources": [
+    {
+      "title": "Upload Assignment",
+      "description": "Submit assignments to portal.",
+      "link": "https://example.com/upload-assignment"
+    },
+    {
+      "title": "Attendance Dashboard",
+      "description": "Track and manage student attendance.",
+      "link": "https://example.com/attendance"
+    }
+  ]
+}

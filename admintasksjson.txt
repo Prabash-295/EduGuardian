@@ -1,0 +1,14 @@
+{
+  "resources": [
+    {
+      "title": "User Management",
+      "description": "Add or remove students/teachers.",
+      "link": "https://example.com/user-management"
+    },
+    {
+      "title": "System Logs",
+      "description": "View usage and error logs.",
+      "link": "https://example.com/logs"
+    }
+  ]
+}

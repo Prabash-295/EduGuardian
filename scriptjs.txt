@@ -1,0 +1,23 @@
+function loadDashboard(role) {
+  document.querySelector('.login-container').classList.add('hidden');
+  document.getElementById('dashboard').classList.remove('hidden');
+  document.getElementById('role-heading').textContent = `${role.charAt(0).toUpperCase() + role.slice(1)} Dashboard`;
+
+  fetch(`data${role}-resources.json`)
+    .then(res = res.json())
+    .then(data = {
+      const container = document.getElementById('content');
+      container.innerHTML = '';
+      data.resources.forEach(item = {
+        const div = document.createElement('div');
+        div.innerHTML = `h3${item.title}h3p${item.description}pa href=${item.link} target=_blankOpen Resourcea`;
+        container.appendChild(div);
+      });
+    });
+}
+
+function logout() {
+  document.querySelector('.login-container').classList.remove('hidden');
+  document.getElementById('dashboard').classList.add('hidden');
+  document.getElementById('content').innerHTML = '';
+}
